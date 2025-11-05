@@ -2,6 +2,10 @@ theory Trimini
   imports Main
 begin
 (*declare [[show_types]] *)
+(*
+Tvrdjenje koje bi moglo da se dokaze je da za svaku tablu dimenzija 2^n x 2^n
+kojoj nedostaje jedno polje postoji ispravno trimini poplocavanje
+*)
 
 
 datatype Orientation = NW | NE | SW | SE
